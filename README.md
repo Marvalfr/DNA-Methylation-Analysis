@@ -11,7 +11,7 @@ As the data shows, 95 healthy tissue samples were collected versus 641 tumor sam
 - Since the data is imbalanced, I used the random forest and extra tree balance algorythm to tune the model preds.
 
 DNA methylation is binary: a methyl group either binds to certain sites or not. But this is true when observing only one cell. If we look at millions of cells, we will find millions of binary observations at the same DNA site. Some cells are methylated and some are not. The decimals in the data frame are the average values of methylation for each DNA site.
-- the dataset is too big to upload to the repo; [link](https://drive.google.com/drive/folders/1dL53sgpmI4kwO0t4PStwqgci7tta3AQk?usp=sharing) to the datasets.
+- the dataset is too big to upload to the repo; [link](https://drive.google.com/drive/folders/1mZVxI0hLVPL3OaPELygZTQUJDhXLRJnd?usp=sharing) to the datasets.
 ### Data Cleaning Procedure
 - imputing the missing values with KNNImputer
 ## Data Exploration and Modeling
