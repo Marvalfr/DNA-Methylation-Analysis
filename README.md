@@ -27,7 +27,7 @@ Capstone
 |__ | link to the datasets  
 ```
 ## The Datasets  
-This data set is part of the [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) project, which identifies and analyzes the genetic mutations that cause cancer in 33 different types of cancer. In this project, I will only analyse breast cancer.
+This data set is part of the [TCGA](https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga) project, which identifies and analyzes the genetic mutations that cause cancer in 33 different types of cancer. In this project, I will only analyze breast cancer.
 The data sets for this project are organized into two tables, each with 423,669 rows. Each row represents a DNA methylation site. The columns represent tissue samples from different donors. DNA methylation is binary: a methyl group either binds to certain sites or not. But this is true when observing only one cell. If we look at millions of cells, we will find millions of binary observations at the same DNA site. Some cells are methylated and some are not. The decimals in the data frame are the average values of methylation for each DNA site.
 As the data shows, 95 healthy tissue samples were collected versus 641 tumor samples. A biopsy is not typically performed on healthy people, which leads to the imbalance data.  
 The datasets are too large to upload to repository and can be found [here](https://drive.google.com/drive/folders/1mZVxI0hLVPL3OaPELygZTQUJDhXLRJnd?usp=sharing).
